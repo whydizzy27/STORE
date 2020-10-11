@@ -1,3 +1,5 @@
+※ 메인 개발자 : 팀원 김순빈 님
+
 # 추천 시스템
 
 분야에 따른 논문 추천의 경우 총 43개의 분야가 있어 2개 이상의 레이블을 가지고 있으므로 **다중 분류 (Multiclass classification)** 의 예입니다. 각 데이터의 포인터가 정확히 하나의 범주로 분류되기 때문에 **단일 레이블 다중 분류 (single-label, multiclass classification)** 문제입니다.
@@ -75,8 +77,6 @@ pandas-profiling==2.9.0
 
 논문 데이터는 **KCI** (https://www.kci.go.kr/kciportal/main.kci) 홈페이지에서 크롤링 및 OpenAPI를 사용하여 수집한 데이터를 사용하겠습니다. 총 43개의 분류로 나뉘며 어떤 분류는 다른 것에 비해 데이터가 많습니다. 각 분류는 훈련 세트에 평균23개 이상의 샘플을 가지고 있습니다.
 
-![image-20200929021753979](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20200929021753979.png)
-
 
 
 ## :gear: 데이터 정제
@@ -148,7 +148,6 @@ X_train, X_test, y_train, y_test = train_test_split(df['tokenized_doc'], df['lab
 
 정제, 정규화, 토큰화를 통해 전처리된 데이터를 모델링을 위해 벡터로 변환합니다. 레이블을 벡터로 바꾸기 위해서 레이블 리스트를 정수 텐서로 변환하는 원-핫 인코딩(one-hot encoding)을 사용했습니다. 이 때,  정수화된 데이터 중 가장 긴 길이인 398에 맞춰 정규화 및 벡터화시킵니다.
 
-![image-20200929030524195](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20200929030524195.png)
 
 ```python
 from keras.preprocessing.text import Tokenizer
