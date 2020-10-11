@@ -166,12 +166,11 @@
 
 #### 요약 알고리즘
 
-[여기]()를 클릭하세요.
+[summary_algorithm_README.md](https://github.com/whydizzy27/STORE/blob/main/summary_algorithm_README.md)를 참고하세요.
 
 #### 추천 알고리즘
 
-[여기]()를 클릭하세요.
-
+[doc_Recommend_System.md](https://github.com/whydizzy27/STORE/blob/main/doc_Recommend_System.md)를 참고하세요.
 
 
 ## :straight_ruler: Commit Convention
