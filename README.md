@@ -1,10 +1,8 @@
-# STORE
-Summary Thesis Online &amp; Recommend for Everyone // 온라인 논문 요약 서비스 및 빅데이터 기반 유사논문 추천 서비스
+※ 본 프로젝트는 삼성청년소프트웨어아카데미의 허가 없이 소스 코드를 업로드할 수 없다는 점 양해 부탁드립니다.
 
+# :page_with_curl: STORE - 논문 요약 서비스 (Summary Thesis Online & Recommend for Everyone)
 
-# :page_with_curl: STORE - 논문 요약 서비스
-
-![로고](/uploads/38ecb3213688ae0d76afc2e15d808400/로고.png)
+![로고](https://user-images.githubusercontent.com/67194249/95681875-2a685e80-0c1d-11eb-84b2-547df6e3bb1d.png)
 
 `STORE`은 논문 검색, 요약, 추천을 위한 웹페이지 입니다. 사용자가 요약을 원하는 논문을 `pdf` 파일로 업로드 시, 논문 요약 및 비슷한 논문을 추천받을 수 있습니다.
 
@@ -148,7 +146,7 @@ Summary Thesis Online &amp; Recommend for Everyone // 온라인 논문 요약 �
 
 ## :desktop_computer: 사용된 기술
 
-![image-20201008003531560](/uploads/d65a46e1f57fa8fa087d82907097cccd/stack.JPG)
+![stack](https://user-images.githubusercontent.com/67194249/95681873-29373180-0c1d-11eb-98cd-a7c03cbc235d.JPG)
 
 #### 프론트엔드
 
