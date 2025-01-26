@@ -192,13 +192,7 @@
 
 
 
-## 👤 저자
 
-* 박진수 - jinsoo Park - ahrtzzinn@gmail.com - @ahrtz
-* 김순빈 - Soonbeen Kim - ksb940925@gmail.com - @soo-ni
-* 유동균 - Donggyun Yoo - ydk9581@gmail.com - @whydizzy27
-* 윤인하 - Inha Yoon - dlsgk147@naver.com - @dlsgk147
-* 정다비치 - Davichi Jeong - davichiar8@gmail.com - @davichiar
 
 
 
